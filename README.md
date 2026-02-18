@@ -49,7 +49,7 @@ In the literature, both classical ML and 1D CNNs are commonly used with MFCCs.
 
 ## Waveform
 
-One straightforward idea is to feed raw audio directly into a transformer. Below are the Wav2Vec results:
+One straightforward idea is to feed raw audio directly into a transformer. Below are the Wav2Vec model scheme:
 
 <img style="display: block; margin: auto;" src="images/wav2vec_architecture.png" alt="">
 <p style="text-align: center;">Wav2Vec architecture</p>
