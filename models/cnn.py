@@ -29,7 +29,7 @@ class CNNModel(nn.Module):
             nn.MaxPool2d(kernel_size=(2, 2)),
         )
 
-        self.global_avg_pool = nn.AdaptiveAvgPool2d((1, 1))  # Усреднение перед FC-слоями
+        self.global_avg_pool = nn.AdaptiveAvgPool2d((1, 1))  # Averaging before FC layers
 
         self.fc_layers = nn.Sequential(
             nn.Flatten(),
