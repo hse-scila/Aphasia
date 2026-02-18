@@ -4,7 +4,6 @@
 
 * models — Python files containing model classes  
 * notebooks — Jupyter notebooks with experiments
-* python scrips — code for running on a remote cluster  
 * src — helper functions/classes and Streamlit web app  
 
 ## Problem Statement
