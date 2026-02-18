@@ -2,20 +2,8 @@
 
 ## Repository Navigation
 
-* checkpoints — directory for locally stored model weights. Each model has its own subdirectory inside  
-* data — directory for datasets  
-* image — images displayed in the README.md  
 * models — Python files containing model classes  
-* notebooks — Jupyter notebooks with experiments  
-  * base_analysis — EDA  
-  * 2d_mfcc — training a CNN on MFCC
-  * 2d_spectrogramm — training a CNN on spectrograms   
-  * catboost — CatBoost training  
-  * data_splitting — data splitting  
-  * ml_test_all_features — Experiments with classical ML  
-  * swishnet — Training SwishNet on audio chunks  
-  * wav2vec_train — Training Wav2Vec  
-  * wav2vec_test — Testing Wav2Vec 
+* notebooks — Jupyter notebooks with experiments
 * python scrips — code for running on a remote cluster  
 * src — helper functions/classes and Streamlit web app  
 
@@ -33,16 +21,11 @@ Therefore, having a tool that can detect the first signs of aphasia is crucial.
 
 ## Dataset
 
-The dataset was provided by the Laboratory of Social Cognitive Informatics. It includes 353 participants with aphasia  
+The dataset was provided by Center for Language and Brain, HSE University. It includes 353 participants with aphasia  
 and 101 without. Each participant has approximately two audio recordings. The participants belong to different age groups.  
 The average age of aphasic participants is 58, and the distribution is close to normal. The non-aphasic group’s age  
 distribution is more uniform, containing both young and elderly subjects.  
 <br>  
-Below is the distribution of aphasia severity:
-
-<img style="display: block; margin: auto;" src="images/aphasia_severity.png" alt="">
-<p style="text-align: center;">Distribution of aphasia severity</p>
-
 
 ## We have tested various methods
 
@@ -81,8 +64,7 @@ Various methods were tested, and for the final Streamlit application,
 Wav2Vec was chosen for its accuracy, and MobileNet on MFCC due to its speed and good performance.  
 <br/>  
 Although the classifier itself is complete, there is still room for exploration. For example,  
-severity prediction remains an open goal. If more datasets in other languages were publicly available,  
-we could train on them and test on Russian speech to see whether the model focuses more on *what* is said or *how* it is said.  
+severity prediction remains an open goal.
 
 ## References
 
