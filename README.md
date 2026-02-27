@@ -20,7 +20,7 @@ Therefore, having a tool that can detect the first signs of aphasia is crucial.
 
 ## Dataset
 
-The dataset was provided by Center for Language and Brain, HSE University. It includes 353 participants with aphasia  
+The dataset was provided by Center for Language and Brain, HSE University. It includes 253 participants with aphasia  
 and 101 without. Each participant has approximately two audio recordings. The participants belong to different age groups.  
 The average age of aphasic participants is 58, and the distribution is close to normal. The non-aphasic group’s age  
 distribution is more uniform, containing both young and elderly subjects.  
