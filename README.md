@@ -26,6 +26,8 @@ The average age of aphasic participants is 58, and the distribution is close to 
 distribution is more uniform, containing both young and elderly subjects.  
 <br>  
 
+Participant-level demographic information (such as aphasia status and age) is collected in the `pwa.demographic.info.csv` file.
+
 ## We have tested various methods
 
 ## Classical ML
